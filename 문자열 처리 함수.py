@@ -27,4 +27,7 @@ print(python.index("n",+ python.index("n") + 1)) #15 (두번째 위치의 n을 �
 #find() 함수는 index() 처럼 문자 위치를 알려줌 다만, 없는 문자열을 선언하면 -1을 출력함
 print(python.find("n")) #5
 print(python.find("java")) #-1
-print(python.index("java")) #에러발생
+# print(python.index("java")) #에러발생
+
+#count() 함수는 지정한 해당 문자열이 몇개 있는지 출력시켜줌
+print(python.count("n")) # 2
