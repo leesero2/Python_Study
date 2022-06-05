@@ -40,4 +40,4 @@ class FlyalbeAttackUnit(AttackUnit, Flyable):  # 공격도 하면서 날줄 알�
 
 
 valkyrie = FlyalbeAttackUnit("발키리", 200, 6, 5)
-valkyrie.fly(valkyrie, "3시")
+valkyrie.fly(valkyrie.name, "3시")
